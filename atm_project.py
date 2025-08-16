@@ -7,7 +7,7 @@ import random
 conn = mysql.connector.connect(
     host="localhost",
     user="root",        # change if needed
-    password="Jhansi@123$",  # change if needed
+    password="",  # change if needed
     database="atm_db"
 )
 cursor = conn.cursor()
@@ -207,3 +207,4 @@ while True:
 
     else:
         print("Invalid choice.")
+
